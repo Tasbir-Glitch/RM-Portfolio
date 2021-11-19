@@ -1359,6 +1359,9 @@ body {
     -webkit-box-shadow: var(--neu-shadow-inset-thin);
     box-shadow: var(--neu-shadow-inset-thin);
 }
+.services .items .item{
+    width: 90vw;
+}
 
 
 
@@ -1706,7 +1709,21 @@ body {
     .navbar .logo img {
         width: 120px;
     }
+    .services .items .item{
+        width: 80vw;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .banner .hero img{
+        width: 80vw;
+    }
 }
+@media(min-width: 650px){
+    .services .items .item{
+        width: 400px;
+    }
+}
+
 
 // menubar-start
 .menu-bar {

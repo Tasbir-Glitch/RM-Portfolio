@@ -1327,6 +1327,10 @@ body {
   box-shadow: var(--neu-shadow-inset-thin);
 }
 
+.services .items .item {
+  width: 90vw;
+}
+
 @media (max-width: 1300px) {
   .banner .contents {
     margin-left: 10px;
@@ -1623,6 +1627,20 @@ body {
 @media (max-width: 400px) {
   .navbar .logo img {
     width: 120px;
+  }
+  .services .items .item {
+    width: 80vw;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .banner .hero img {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 650px) {
+  .services .items .item {
+    width: 400px;
   }
 }
 
